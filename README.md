@@ -125,7 +125,7 @@ This transform will perform a very simple skew transform, and you can tweak it f
 
 Although `BCMeshTransform` is the default base class, the mutable counterpart, `BCMutableMeshTransform`, is much more convenient to use.
 
-##Animations
+## Animations
 
 All versions of block-based `UIView` animations are supported, **apart** from keyframe and spring animations. Animation always begins from the current state, regardless of presence of `UIViewAnimationOptionBeginFromCurrentState` flag.
 
@@ -134,7 +134,7 @@ For an animation to occur, the current and final meshes have to be compatible:
 - they must have the same number of faces
 - the faces at corresponding indexes must point to the same vertices, (their `indices` arrays must be equal)
 
-##Lighting
+## Lighting
 
 `BCMeshTransformView` supports a simple lighting model in a form of diffuse lighting with pure white light:
 
